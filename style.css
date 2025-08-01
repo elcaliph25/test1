@@ -1,0 +1,21 @@
+img {
+  width: 30%;
+  display: inline-block;
+  margin: calc(10% / 6);
+  transition: 0.3s cubic-bezier(0.11, 0, 0.5, 0);
+}
+img:hover {
+  box-shadow: 0px 0px 20px black;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+nav {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ababab;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 1.3em 0;
+}
